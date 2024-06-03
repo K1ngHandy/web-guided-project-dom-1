@@ -2,6 +2,15 @@
 //  Older: getElementById, getElementsByTagName, getElementsByClassName
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
+const mainNav = document.getElementById('mainNav');
+const divElems = document.getElementsByTagName('div');
+const cardElems = document.getElementsByClassName('card');
+
+const queryMainNav = document.querySelector('#mainNav');
+const queryDivElems = document.querySelectorAll('div');
+const queryCardElems = document.querySelectorAll('.card');
+
+console.log("It's working!");
 
 // A- finding across the entire DOM
 const header = null
